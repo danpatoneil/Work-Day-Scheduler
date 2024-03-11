@@ -14,7 +14,7 @@ Here is a screenshot and a link to the running website
 This application allows users to schedule one task per time of day. The app remembers tasks through local storage and color codes the times of day based on whether they are past, present, or future hours. 
 
 ## Future Iterations
-In future iterations, I would like to add functionality to have each time slot be a list of 4 or 5 tasks where the user could manually click on completed tasks to remove them from the list. This would require a reorganization of the html and having each localStorage item be an array and use JSON parsing/stringifying to store and access them.
+In future iterations, I would like to add functionality to have each time slot be a list of 4 or 5 tasks where the user could manually click on completed tasks to remove them from the list. This would require a reorganization of the html and having each localStorage item be an array and use JSON parsing/stringifying to store and access them. Another option for an improvement would be to wrap all of formatting elements into a timer. As it is currently, the website only updates the formatting on a refresh of the page. If there was a periodic update, the page would automatically change formatting when the hour rolled over.
 
 MIT License
 
